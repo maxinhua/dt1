@@ -75,13 +75,11 @@ body{
 .banner{
     background: #4671fe;
     color: #fff;
-    font-size: 300%;
-    /* width: 658px; */
+    font-size: 200%;
     height: 367px;
     margin: 0 auto;
     line-height: 367px;
     text-align: center;
-    /* padding: 0 30px; */
 
 }
 a{
