@@ -75,7 +75,7 @@ body{
 .banner{
     background: #4671fe;
     color: #fff;
-    font-size: 69px;
+    font-size: 300%;
     /* width: 658px; */
     height: 367px;
     margin: 0 auto;
