@@ -1,4 +1,4 @@
-﻿body,ul,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,input,p{
+body,ul,li,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,input,p{
     padding: 0;
     margin: 0;
 }
@@ -68,7 +68,6 @@ body{
 .wrap{
     font-size: 22px;
     width: 100%;
-    
     margin: 0 auto;
 }
 
@@ -76,10 +75,12 @@ body{
     background: #4671fe;
     color: #fff;
     font-size: 200%;
-    height: 367px;
+    /* width: 658px; */
+    height: 250px;
     margin: 0 auto;
-    line-height: 367px;
+    line-height: 250px;
     text-align: center;
+    /* padding: 0 30px; */
 
 }
 a{
@@ -87,24 +88,25 @@ a{
 }
 .dt-box{
     margin: 18px 0 ;
-    padding:0 30px 30px 30px;
+    padding:0 20px 20px 20px;
     background: #fff;
     
 }
 .dt-box  dl{
     border-bottom: 1px dashed #ccc;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 .dt-box  dt{
     height: 90px;
     line-height: 90px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     /* border-bottom: 1px dashed #ccc; */
 
 
 }
 .dt-box  p{
+    font-size: 20px;
     line-height: 35px;
 }
 
@@ -114,7 +116,8 @@ a{
 
 /*Plugin CSS*/
 .pmd{
-    padding-top:30px;
+    padding-top:20px;
+    padding-left:5px;
     margin-left: -30px;
 }
 .str_wrap {
