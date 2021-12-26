@@ -57,6 +57,9 @@ h1,h2,h3,h4,h5,h6 {
 .none{
     display:none;
 }
+.blo{
+    display:block;
+}
 .over{
     overflow: hidden;
 }
@@ -66,7 +69,7 @@ body{
     background: #f0f0f0;
 }
 .wrap{
-    font-size: 22px;
+    font-size: 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -172,4 +175,59 @@ a{
 }
 .str_wrap img {
 	max-width:none !important;	
+}
+
+
+/* test */
+.test-box{
+    padding: 20px;
+}
+.jyy{
+    font: italic 1em cambria;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+   
+.jyy-content{
+    border: 1px solid #ccc;
+}
+.choose{
+    background: #fff!important;
+    color: #333!important;
+    
+    /* border-bottom: 1px solid #fff; */
+}
+.test-choose{
+  
+    margin-bottom: -5px;
+}
+.test-choose > div{
+    width: 33.33333%;
+    float: left;
+    cursor: pointer;
+    border-right: 1px solid #fff;
+    background: -webkit-linear-gradient(#666, #555);
+    color: #eee;
+    /* border-radius: 5px 5px 0 0; */
+    padding: 1.5% 3%;
+    float: left;
+    /* margin-right: 2px; */
+    font: italic 1em cambria;
+}
+
+
+.test-exe >ul{
+    min-height:450px;
+    display: none;
+    padding: 4%;
+    /* border: 1px solid #333; */
+    /* border-top: 1px solid #fff; */
+    font: italic 1em cambria;
+}
+.test-exe >ul:first-child{
+    display: block;
+}
+
+.test-exe >ul li{
+    padding: 5px 0;
 }
